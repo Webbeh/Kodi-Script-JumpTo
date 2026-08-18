@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.jumpto" name="Jump To Letter" version="1.0.0" provider-name="Some random dude">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Jump a focused list to a given letter.</summary>
+    <license>MIT</license>
+    <platform>all</platform>
+  </extension>
+</addon>
